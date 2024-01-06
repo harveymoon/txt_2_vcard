@@ -26,7 +26,7 @@
     vcard = vcard.substr(4);
     // convert all ' ' to '\n'
     vcard = vcard.replace(/ /g, '\n');
-    downloadToFile(vcard, 'vcard.vcf', 'text/vcard');
+    downloadToFile(vcard, 'Contact.vcf', 'text/vcard');
   }
   
   //downloadEl.addEventListener('click', makeVCard);
